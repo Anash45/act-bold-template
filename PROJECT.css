@@ -1,0 +1,566 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 81, 82);
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+}
+
+p {
+    display: inline;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+div.full{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 640px;
+    overflow: hidden;
+
+}
+
+header div.menu{
+    width: 100%;
+    color: rgb(78, 81, 82);
+    height: 80px;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.055);
+    position: scroll;
+    border-bottom: 5px rgba(51, 183, 235, 0.856) outset;
+}
+
+div.logo {
+    height: 70px;
+    width: 200px;
+    margin: -12px 0 0 100px;
+    float: left;
+}
+
+
+
+.logo a {
+    color: rgba(40, 45, 46, 0.733);
+    text-shadow: -3px 2px 3px rgb(43, 149, 255);
+}
+
+div.logo h2, .main_logo {
+    font-variant: small-caps;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.logo p , .main_logo p {
+    font-size: 37px;
+    margin: 0;
+    display: inline;
+}
+
+div.logo span , .main_logo span{
+    font-family: comic sans ms;
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: -3px 2px 8px rgb(43, 149, 255);
+
+}
+
+div.menu_buttons{
+    float: right;
+    width: 65%;
+    height: 70px;
+    margin: 20px 0 0 20px;
+}
+
+div.menu_buttons .buttons li {
+    margin: 0px 0 0 10px;
+    display: inline-block;
+    padding: 12px 0 0 8px;
+    color: rgb(78, 81, 82);
+    font-size: 20px;
+    width: 155px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div.menu_buttons .buttons li:hover{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+#work {
+    width: 120px;
+}
+
+#serv {
+    padding-left: 8px;
+}
+
+#about {
+    width: 110px;
+}
+
+#contact {
+    width: 135px;
+}
+
+#blog{
+    width: 65px;
+}
+
+ul.icons {
+    margin-left: 20px;
+}
+
+
+
+
+
+.icons i:hover{
+    text-shadow: 0 0 5px black;
+    color: white;
+    transition: all 0.12s ease-in-out;
+    
+}
+
+
+a#fb {
+    padding: 3px 0 0 7px;
+    display: inline-block;
+}
+
+a#insta , a#twit {
+    padding: 3px 0 0 5px;
+    display: inline-block;
+}
+
+ul.icons i {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+
+}
+
+header div.main{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.main_logo {
+    cursor: not-allowed;
+    margin-top: 80px;
+    margin-left: 490px;
+    font-size: 70px;
+    text-shadow: 0 0 5px rgba(0, 0, 255, 0.562);
+}
+
+.main_logo p, .main_logo span {
+    font-size: 70px;
+    text-shadow: 0 0 5px rgba(0, 0, 255, 0.562);
+}
+
+button {
+    font-size: 30px;
+    margin: auto;
+    display: block;
+    margin: 40px 0 0 550;
+    padding: 10px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.692);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.692);
+}
+
+
+
+div.services {
+    width: 80%;
+    height: 640px;
+    margin: 0px 0 0 140px;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 27px;
+    margin: 40px 0 20px 0px;
+}
+
+.services_sec{
+    overflow: hidden;
+    text-align: center;
+    width: 32%;
+    height: 190px;
+    float: left;
+    border: 2px inset;
+    margin: 5px 0 0 9px;
+}
+
+img.png_images{
+    height: 80px;
+    width: 80px;
+    border-bottom: 1px groove rgba(128, 128, 128, 0.39);
+    padding-bottom: 20px;
+    margin: 10px 0 0 0px;
+}
+
+span.all_services{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 23px;
+    height: 40px;
+    width: 200px;
+    padding: 10px 0 0 0;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+}
+
+div.team {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(71, 68, 68, 0.034);
+}
+
+div.intro {
+    width: 30%;
+    margin: 50px 0 0 100px;
+    height: 70%;
+    float: left;
+    text-align: left;
+}
+
+.intro h2{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.intro p {
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+div.profiles{
+    width: 54%;
+    height: 100%;
+    float: right;
+    text-align: center;
+
+}
+
+#me_left{
+    margin-left: 30px;
+}
+
+
+.prof {
+    float: left;
+    width: 30%;
+    height: 70%;
+    margin-top: 60px;
+    background-color: rgba(71, 65, 65, 0.048);
+}
+
+.prof h3 {
+    color: rgba(0, 0, 0, 0.795);
+    }
+
+.prof strong {
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.pics, .anas {
+    border: none;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 24px;
+    margin-bottom: 14px;
+}
+
+.anas {
+    height: 137px;
+    width: 137px;
+    box-sizing: border-box;
+    border: solid 2px dodgerblue;
+}
+
+
+#me {
+    height: 80%;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid dodgerblue;
+    border-left: 3px double dodgerblue;
+    border-spacing: 10px;
+}
+
+div.ad {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.ad img {
+    height: 300px;
+    width: 100%;
+}
+
+div.works {
+    width: 100%;
+    height: 400px;
+}
+
+.works_description {
+    width: 60%;
+    margin-left: 270px;
+    text-align: center;
+}
+
+.works_description h1 {
+    font-size: 27px;
+    margin: 40px 0 20px 0px;
+    text-align: center;
+}
+
+.works_description p {
+    color: rgba(44, 41, 41, 0.596);
+}
+
+
+.bizon {
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(53, 49, 49, 0.5);
+}
+
+.real, .carthings, .kamalia, .it_empire {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(53, 49, 49, 0.5);
+}
+
+.bizon:hover, .real:hover, .carthings:hover, .kamalia:hover, .it_empire:hover {
+    box-shadow: 0 0 17px rgba(53, 49, 49, 0.5);
+}
+
+.logos {
+    height: 200px;
+    width: 200px;
+    opacity: 0.7;
+}
+
+.logos:hover {
+    transform: scale(1.07);
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.it_empire:hover #it {
+    transform: scale(1.07);
+    transition: all 0.3s ease-in-out;
+}
+
+.it_empire img {
+    margin-top: 50px;
+    height: 100px;
+    width: 200px;
+}
+
+.contact {
+    background-image: url("contact.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.021);
+    margin-top: 10px;
+    height: 440px;
+    width: 100%;
+    text-align: center;
+}
+
+.inner {
+    width: 80%;
+    height: 80%;
+    margin: 40px 0 0 130px;
+}
+
+.cntct {
+    height: 50px;
+    width: 330px;
+    border: 2px rgba(30, 143, 255, 0.356) groove;
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 7px;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+.msg {
+    width: 1020px;
+    border: 2px rgba(30, 143, 255, 0.356) groove;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 7px 7px 170px 7px;
+    background-color: rgba(7, 7, 7, 0.096);
+    vertical-align: baseline;
+    height: 200px;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 14px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.foot {
+    height: 400px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.623);
+    box-sizing: border-box;
+}
+
+
+.three {
+    height: 220px;
+    color: aliceblue;
+    margin-left: 30px;
+    width: 30%;
+    float: left;
+    text-align: left;
+    box-sizing: border-box !important;
+    margin-top: 70px;
+
+}
+
+.three ul {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.three ul li  {
+    margin-bottom: 10px;
+}
+
+.three a {
+    color: aliceblue;
+
+}
+
+.three li {
+    font-size: 14px;
+    height: 30px;
+    display: block;
+}
+
+.three h3 , .three h5 {
+    margin: 40px;
+}
+
+.last {
+    width: 100%;
+    height: 100px;
+    clear: left;
+
+
+}
+
+.social_icons {
+    height: 70px;
+    background-color: white;
+    color: dodgerblue;
+    width: 70px;
+    border: 1px white solid;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+#last1 {
+    margin-left: 570px;
+}
+
+.social_icons i {
+    font-size: 24px;
+    margin-top: 7px;
+}
+
+.social_icons b {
+    font-size: 12px;
+    padding-top: 3px;
+    display: block;
+    color: black;
+}
+
+.social_icons span {
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
